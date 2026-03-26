@@ -459,9 +459,9 @@ Navbar
   background: var(--clr-white);
   box-shadow: var(--dark-shadow);
   z-index: 2;
-  height: 4rem;
+  /* height: 4rem;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 .nav-icons {
   display: none;
@@ -475,6 +475,7 @@ Navbar
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 1.5rem;
 }
 .nav-toggle {
   background: transparent;
